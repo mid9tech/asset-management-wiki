@@ -1,6 +1,7 @@
 **1.	Roles**
-Frontend	Backend	DevOps
-Tín, Ý	Hải, Đạt	Hải
+Frontend: Tín, Ý	
+Backend: Hải, Đạt	
+DevOps: Hải
 
 **2.	Code Conventions**
 **2.1.	Backend**

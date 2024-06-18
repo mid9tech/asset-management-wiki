@@ -52,3 +52,5 @@ Format: <type>(<scope>): <subject>
 -	Scope: Field should be a noun that represents the part of the codebase affected by the commit.
 -	Subject: Brief description of the commit.
 Example: feat(user-profile): add avatar upload functionality
+4. Branch 
+- The branch in GitHub will be named according to the user story.

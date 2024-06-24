@@ -1,6 +1,6 @@
 
 
-Code Conventions**
+Code Conventions
 **1.	Backend**
 -	Naming conventions: 
 •	Classes: PascalCase (e.g., `UserService`, `UserController`)

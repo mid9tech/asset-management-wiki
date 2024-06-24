@@ -4,7 +4,7 @@
 - Deployment Platform: Vercel
 
 **2. Backend (BE)**
-
+- Programming language: Javascript
 - Deployment Platform: Azure Web App
 
 **3. Database**

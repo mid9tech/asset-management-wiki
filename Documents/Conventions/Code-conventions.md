@@ -24,7 +24,7 @@ Code Conventions**
 •	Do not add empty comments.
 •	Begin single-line comments with a single space.
 
-**2.2.	Frontend**
+**2.	Frontend**
 -	Using typecript.
 -	Using Functional (Instead of Object-Oriented).
 -	Prefer functional & immutable array methods (.ie map/filter/reduce/some/every over any types of mutable for loop.)

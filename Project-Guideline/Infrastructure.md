@@ -1,9 +1,10 @@
 **1. Frontend (FE)**
-- Programming langague: Javascript
+- Programming language: Javascript
 - Framework: NextJs
 - Deployment Platform: Vercel
 
 **2. Backend (BE)**
+
 - Deployment Platform: Azure Web App
 
 **3. Database**

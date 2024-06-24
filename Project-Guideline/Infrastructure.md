@@ -5,6 +5,7 @@
 
 **2. Backend (BE)**
 - Programming language: Javascript
+- Framework: NestJs
 - Deployment Platform: Azure Web App
 
 **3. Database**

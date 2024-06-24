@@ -1,4 +1,6 @@
 **1. Frontend (FE)**
+- Programming langague
+- Framework: NextJs
 - Deployment Platform: Vercel
 
 **2. Backend (BE)**

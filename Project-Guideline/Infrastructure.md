@@ -17,3 +17,4 @@
 
 **5. Source Code Repositories**
 - Service: Azure DevOps Repository
+**6. CI/CD**

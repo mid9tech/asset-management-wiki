@@ -17,4 +17,6 @@
 
 **5. Source Code Repositories**
 - Service: Azure DevOps Repository
+
 **6. CI/CD**
+![image.png](/.attachments/image-f1cecf52-e7ae-43d2-88fc-66c1d28ab9e6.png)

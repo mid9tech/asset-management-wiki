@@ -1,7 +1,7 @@
 
 
-**2.	Code Conventions**
-**2.1.	Backend**
+Code Conventions**
+**1.	Backend**
 -	Naming conventions: 
 •	Classes: PascalCase (e.g., `UserService`, `UserController`)
 •	Interface: PascalCase prefixed with `I` (e.g., IUserService).

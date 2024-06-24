@@ -16,4 +16,4 @@
 - Pipeline Configuration: Azure Pipelines
 
 **5. Source Code Repositories**
-- Service:Azure DevOps Repository
+- Service: Azure DevOps Repository

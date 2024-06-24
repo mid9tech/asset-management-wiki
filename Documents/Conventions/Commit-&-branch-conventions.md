@@ -1,5 +1,4 @@
-# **Commit & branch conventions**
-**3.	Commit Conventions**
+**1.	Commit Conventions**
 Format: <type>(<scope>): <subject>
 -	Type:
 •	feat: A new feature.
@@ -14,5 +13,5 @@ Format: <type>(<scope>): <subject>
 -	Subject: Brief description of the commit.
 Example: feat(user-profile): add avatar upload functionality
 
-**4. Branch** 
+**2. Branch** 
 - The branch in GitHub will be named according to the user story.

@@ -1,5 +1,5 @@
 **1. Frontend (FE)**
-- Programming langague
+- Programming langague: Javascript
 - Framework: NextJs
 - Deployment Platform: Vercel
 

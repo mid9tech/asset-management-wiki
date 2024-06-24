@@ -4,6 +4,6 @@ Deployment Platform: Vercel
 Deployment Platform: Azure Web App
 **3. Database**
 Service: Azure PostgreSQL Flexible Server
-CI/CD Pipelines
+**4. CI/CD Pipelines**
 Tool: Azure DevOps
 Pipeline Configuration: Azure Pipelines

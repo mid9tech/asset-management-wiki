@@ -19,7 +19,8 @@ NODEJs team  – End sprint report
 
 
 5. Automation Report
-![image.png](/.attachments/image-9912d130-2971-458e-b28b-02399193e53a.png)
+
+![image.png](/.attachments/image-c6ac9773-9f18-4bce-b176-1f3042ea30db.png)
  
 Number of test cases added: 5
 

@@ -1,4 +1,4 @@
-# Sequence Diagram: Assignment Management Flow
+# I. Sequence Diagram: Assignment Management Flow
 
 ## Overview
 This sequence diagram illustrates the process of managing assignments within the system. It covers the scenarios where a staff member accepts or declines an assignment. The interactions between the Staff, System, Home Page, Confirmation Popup, and Database components are depicted to showcase the complete workflow.
@@ -136,4 +136,5 @@ This sequence diagram illustrates the process of managing assignments within the
 - The confirmation popup serves as a safeguard to prevent accidental changes to assignment states.
 - Toast notifications provide immediate feedback to the user about the success of their actions.
 - The assignment list on the home page updates dynamically to reflect the current state of assignments.
+
 

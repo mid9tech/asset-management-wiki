@@ -7,6 +7,8 @@
 
 ### Front End Pipelines
 
+![CI/CD Pipeline for Front End](/.attachments/CICD_FE-fc655631-990b-4f76-ade1-44717c319e49.png)
+
 1. **Commit and Push:**
    - Developers write code locally and commit their changes to the local Git repository.
    - These changes are then pushed to the remote Azure repository, initiating the CI process.
@@ -32,8 +34,6 @@
 
 6. **Vercel Deployment:**
    - Vercel listens for changes in the `main` branch and automatically deploys the updated application to the live environment.
-
-![CI/CD Pipeline for Front End](/.attachments/CICD_FE-fc655631-990b-4f76-ade1-44717c319e49.png)
 
 ---
 

@@ -7,6 +7,8 @@
 
 ## Front End Pipelines
 
+### Diagram
+
 ![CI/CD Pipeline for Front End](/.attachments/CICD_FE-fc655631-990b-4f76-ade1-44717c319e49.png)
 
 1. **Commit and Push:**

@@ -127,7 +127,3 @@ The asset management application is designed to help organizations manage their 
    - **Setup:**
      - **Controllers:** Implement RESTful endpoints in NestJS using controllers and services.
      - **Tools & Technologies:** TypeScript, NestJS, REST API.
-
----
-
-The described infrastructure provides a robust and scalable architecture for the asset management application, ensuring efficient development, deployment, and maintenance processes.

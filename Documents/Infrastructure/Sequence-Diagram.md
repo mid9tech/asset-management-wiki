@@ -69,7 +69,7 @@ This sequence diagram illustrates the process of managing assignments within the
 3. **System** fetches assignment data from the **Database**.
 4. **System** displays the fetched assignment data on the home page.
 
-### Accepting an Assignment
+### Accepting an Assignmen
 - **Alt Path**: Staff clicks the Accept button.
   - **System** displays a confirmation popup.
   - **Alt Path**: Staff clicks "Yes" on the confirmation popup.

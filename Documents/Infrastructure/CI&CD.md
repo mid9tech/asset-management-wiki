@@ -11,7 +11,6 @@
 
 ![CI/CD Pipeline for Front End](/.attachments/CICD_FE-fc655631-990b-4f76-ade1-44717c319e49.png)
 
-
 ### Explain
 
 1. **Commit and Push:**
@@ -42,9 +41,13 @@
 
 ---
 
-### Backend Pipelines
+## Backend Pipelines
+
+### Diagram
 
 ![CI/CD Pipeline for Backend](/.attachments/CICD_BE-5a500f1a-7054-46fa-a1e2-ead3f995f540.png)
+
+### Explain
 
 1. **Commit and Push:**
    - Developers write code locally and commit their changes to the local Git repository.

@@ -18,13 +18,12 @@
 
 3. **CI Stage - Build:**
    - **Install Node.js:** The pipeline installs the required version of Node.js.
-   - **Install Dependencies:** It runs `npm install`, `npm install -g @nestjs/cli` and `npm run prisma:generate` to install all necessary project dependencies.
+   - **Install Dependencies:** It runs `npm install` to install all necessary project dependencies.
    - **Run Linting:** The pipeline runs a linting tool (ESLint) to check the code for stylistic and programming errors.
    - **Run Gitleaks:** Gitleaks is executed to detect any hardcoded secrets and sensitive information in the codebase.
    - **Run Tests:** Automated tests are run to ensure that new changes do not break existing functionality.
-   - **Run Security Audit:** The pipeline runs a security audit (e.g., `npm audit`) to check for vulnerabilities in dependencies.
-   - **Build the Project:** The project is built, typically using a command like `npm run build` or `yarn build`.
-
+   - **Run Security Audit:** The pipeline runs a security audit `npm audit --audit-level=high` to check for vulnerabilities in dependencies.
+   - **Build the Project:** The project is built, typically using a command like `npm run build`.
 4. **Merge to Main:**
    - After the PR is approved and merged into the `main` branch, the CD pipeline is triggered.
 
@@ -51,14 +50,13 @@
 
 3. **CI Stage - Build:**
    - **Install Node.js:** The pipeline installs the required version of Node.js.
-   - **Install Dependencies:** It runs `npm install` or `yarn install` to install all necessary project dependencies.
-   - **Run Linting:** The pipeline runs a linting tool (e.g., ESLint) to check the code for stylistic and programming errors.
+   - **Install Dependencies:** It runs `npm install`, `npm install -g @nestjs/cli` and `npm run prisma:generate` to install all necessary project dependencies.
+   - **Run Linting:** The pipeline runs a linting tool (ESLint) to check the code for stylistic and programming errors.
    - **Run Gitleaks:** Gitleaks is executed to detect any hardcoded secrets and sensitive information in the codebase.
    - **Run Tests:** Automated tests are run to ensure that new changes do not break existing functionality.
    - **Publish Test Results:** Test results are published to Azure DevOps for review.
-   - **Run Security Audit:** The pipeline runs a security audit (e.g., `npm audit`) to check for vulnerabilities in dependencies.
-   - **Build the Project:** The project is built, typically using a command like `npm run build` or `yarn build`.
-
+   - **Run Security Audit:** The pipeline runs a security audit `npm audit --audit-level=high` to check for vulnerabilities in dependencies.
+   - **Build the Project:** The project is built, typically using a command like `npm run build`.
 4. **Merge to Main:**
    - After the PR is approved and merged into the `main` branch, the CD pipeline is triggered.
 

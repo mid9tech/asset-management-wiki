@@ -99,7 +99,7 @@ This sequence diagram illustrates the process of managing assignments within the
 - Toast notifications provide immediate feedback to the user about the success of their actions.
 - The assignment list on the home page updates dynamically to reflect the current state of assignments.
 
-# III. Sequence Diagram: Assignment Return Flow
+# III. Sequence Diagram: Asset Return Flow
 
 ## Overview
 This sequence diagram illustrates the process of returning an assignment within the system. It covers the scenario where a staff member initiates a return request for an assignment. The interactions between the Staff, System, Home Page, Confirmation Popup, and Database components are depicted to showcase the complete workflow.

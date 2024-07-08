@@ -39,6 +39,8 @@
 
 ### Backend Pipelines
 
+![CI/CD Pipeline for Backend](/.attachments/CICD_BE-5a500f1a-7054-46fa-a1e2-ead3f995f540.png)
+
 1. **Commit and Push:**
    - Developers write code locally and commit their changes to the local Git repository.
    - These changes are then pushed to the remote Azure repository, initiating the CI process.
@@ -67,5 +69,3 @@
 6. **Azure Web App Deployment:**
    - Azure Web App triggers an image pull from Azure Container Registry.
    - The updated Docker image is automatically deployed to the live environment.
-
-![CI/CD Pipeline for Backend](/.attachments/CICD_BE-5a500f1a-7054-46fa-a1e2-ead3f995f540.png)

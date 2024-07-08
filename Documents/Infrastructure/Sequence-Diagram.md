@@ -43,7 +43,7 @@ This sequence diagram illustrates the user login process within the system. It c
   - System redirects the User to the Home Page.
 
 ## Diagram
-![User Login Flow](path_to_your_image)
+![SD_AssetManagement_Login.png](/.attachments/SD_AssetManagement_Login-f204cee2-8e89-43bd-b2e4-d5e1b8c2d840.png)
 
 ## Notes
 - The login process includes validation of credentials and user role-based redirection.

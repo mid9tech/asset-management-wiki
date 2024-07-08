@@ -1,4 +1,56 @@
-# I. Sequence Diagram: Assignment Management Flow
+# I. Sequence Diagram: User Login Flow
+
+## Overview
+This sequence diagram illustrates the user login process within the system. It covers scenarios where a user logs in, is redirected based on their role, or changes their password upon the first login. The interactions between the User, System, LoginPage, HomePage, ChangePwdScreen, and Database components are depicted to showcase the complete workflow.
+
+## Participants
+1. **User**: The individual attempting to log in.
+2. **System**: The backend system validating credentials and managing user sessions.
+3. **LoginPage**: The interface where the user enters their login credentials.
+4. **HomePage**: The main page displayed upon successful login.
+5. **ChangePwdScreen**: The interface for changing the password during the first login.
+6. **Database**: The storage system holding user credentials and roles.
+
+## Flow Description
+### Request Login
+1. User requests the Login Page.
+2. System displays the Login Page.
+
+### Login Attempt
+3. User enters their username and password.
+4. User clicks the Login Button.
+5. System validates the credentials against the Database.
+
+### Successful Login
+- **Alt Path**: If credentials are correct:
+  - System retrieves user information and checks the role of the User.
+  - System redirects the User to the Home Page corresponding to their role.
+
+### Unsuccessful Login
+- **Alt Path**: If credentials are incorrect:
+  - System returns an error message.
+  - System displays the error message on the Login Page.
+
+### First-Time Login
+6. System checks if it's the first time the User has logged in.
+- **Alt Path**: If it's the first time:
+  - System displays the Change Password Screen.
+  - User enters a new password.
+  - System updates the password in the Database.
+  - System displays a success message for the password change.
+  - System redirects the User to the Login Page.
+- **Alt Path**: If not the first time:
+  - System redirects the User to the Home Page.
+
+## Diagram
+![SD_AssetManagement_Login.png](/.attachments/SD_AssetManagement_Login-f5c506ce-f47b-474d-9c42-cbdc9f49a348.png)
+
+## Notes
+- The login process includes validation of credentials and user role-based redirection.
+- The system enforces a password change for first-time logins to ensure security.
+- Error messages guide the user in case of invalid credentials or other login issues.
+
+# II. Sequence Diagram: Assignment Management Flow
 
 ## Overview
 This sequence diagram illustrates the process of managing assignments within the system. It covers the scenarios where a staff member accepts or declines an assignment. The interactions between the Staff, System, Home Page, Confirmation Popup, and Database components are depicted to showcase the complete workflow.
@@ -47,7 +99,7 @@ This sequence diagram illustrates the process of managing assignments within the
 - Toast notifications provide immediate feedback to the user about the success of their actions.
 - The assignment list on the home page updates dynamically to reflect the current state of assignments.
 
-# Sequence Diagram: Assignment Return Flow
+# III. Sequence Diagram: Assignment Return Flow
 
 ## Overview
 This sequence diagram illustrates the process of returning an assignment within the system. It covers the scenario where a staff member initiates a return request for an assignment. The interactions between the Staff, System, Home Page, Confirmation Popup, and Database components are depicted to showcase the complete workflow.
@@ -88,7 +140,7 @@ This sequence diagram illustrates the process of returning an assignment within 
 - The assignment list on the home page updates dynamically to reflect the current state of assignments.
 
 
-# Sequence Diagram: Assignment Management Flow
+# IV. Sequence Diagram: Assignment Management Flow
 
 ## Overview
 This sequence diagram illustrates the process of managing assignments within the system. It covers the scenarios where a staff member accepts or declines an assignment. The interactions between the Staff, System, Home Page, Confirmation Popup, and Database components are depicted to showcase the complete workflow.
@@ -137,4 +189,45 @@ This sequence diagram illustrates the process of managing assignments within the
 - Toast notifications provide immediate feedback to the user about the success of their actions.
 - The assignment list on the home page updates dynamically to reflect the current state of assignments.
 
+# V. Sequence Diagram: Request for Return Completion Flow
 
+## Overview
+This sequence diagram illustrates the process of completing a request for return within the system. It covers the scenarios where an admin completes a request and confirms the completion. The interactions between the Admin, System, "Request For Return Page", "Confirmation Popup", and Database components are depicted to showcase the complete workflow.
+
+## Participants
+1. **Admin**: The individual managing return requests.
+2. **System**: The backend system handling the logic and state changes for return requests.
+3. **Request For Return Page**: The interface where the admin views return requests.
+4. **Confirmation Popup**: The UI element prompting the admin to confirm the completion of a request.
+5. **Database**: The storage system holding return request data.
+
+## Flow Description
+### Access Request for Return Page
+1. Admin navigates to the Request For Return Page.
+2. System fetches the request for return data from the Database.
+3. System returns the request for return data.
+4. System displays the request for return data on the Request For Return Page.
+
+### Complete Request for Return
+5. Admin clicks on the Complete Button.
+6. System opens the Confirmation Popup.
+
+### Confirm Completion
+- **Alt Path**: If the admin clicks "Yes" on the Confirmation Popup:
+  - System changes the status of the request for return to "Completed" in the Database.
+  - System returns a success message.
+  - System displays the success message on the Confirmation Popup.
+  - System closes the Confirmation Popup.
+  - System updates the status to Completed on the Request For Return Page.
+
+### Decline Completion
+- **Alt Path**: If the admin clicks "No" on the Confirmation Popup:
+  - System closes the Confirmation Popup.
+
+## Diagram
+![SD_AssetManagement_CompleteRequestReturn.png](/.attachments/SD_AssetManagement_CompleteRequestReturn-ad06a14e-b26c-45ad-80b6-bebc5068c5b8.png)
+
+## Notes
+- The confirmation popup ensures that the admin verifies the action before changing the status of a request.
+- The success message provides feedback to the admin about the successful completion of the request.
+- The system dynamically updates the status on the request page after confirmation.

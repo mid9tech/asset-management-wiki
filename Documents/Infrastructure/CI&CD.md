@@ -1,3 +1,4 @@
+
 ## CI/CD Pipelines
 **Tool:** Azure DevOps  
 **Pipeline Configuration:** Azure Pipelines
@@ -7,30 +8,31 @@
 ### Front End Pipelines
 
 1. **Commit and Push:**
-   - Commit and push the latest code to the Azure repository.
+   - Developers write code locally and commit their changes to the local Git repository.
+   - These changes are then pushed to the remote Azure repository, initiating the CI process.
 
 2. **Create Pull Request:**
-   - Create a pull request to the `main` branch.
-   - CI trigger runs automatically.
+   - A pull request (PR) is created to merge the new changes into the `main` branch.
+   - This PR must be reviewed and approved by other team members.
+   - Once the PR is created, the CI pipeline is triggered to validate the changes.
 
 3. **CI Stage - Build:**
-   - Install Node.js.
-   - Install project dependencies.
-   - Run linting.
-   - Run Gitleaks for secrets detection.
-   - Run tests.
-   - Run security audit.
-   - Build the project.
+   - **Install Node.js:** The pipeline installs the required version of Node.js.
+   - **Install Dependencies:** It runs `npm install`, `npm install -g @nestjs/cli` and `npm run prisma:generate` to install all necessary project dependencies.
+   - **Run Linting:** The pipeline runs a linting tool (ESLint) to check the code for stylistic and programming errors.
+   - **Run Gitleaks:** Gitleaks is executed to detect any hardcoded secrets and sensitive information in the codebase.
+   - **Run Tests:** Automated tests are run to ensure that new changes do not break existing functionality.
+   - **Run Security Audit:** The pipeline runs a security audit (e.g., `npm audit`) to check for vulnerabilities in dependencies.
+   - **Build the Project:** The project is built, typically using a command like `npm run build` or `yarn build`.
 
 4. **Merge to Main:**
-   - Merge the pull request to the `main` branch.
-   - CD trigger runs automatically.
+   - After the PR is approved and merged into the `main` branch, the CD pipeline is triggered.
 
 5. **CD Stage - Deploy:**
-   - Publish the latest source code to Vercel.
+   - The pipeline publishes the latest source code to Vercel, a platform for front-end deployments.
 
 6. **Vercel Deployment:**
-   - Vercel listens for changes and automatically deploys to the `main` branch.
+   - Vercel listens for changes in the `main` branch and automatically deploys the updated application to the live environment.
 
 ![CI/CD Pipeline for Front End](/.attachments/CICD_FE-fc655631-990b-4f76-ade1-44717c319e49.png)
 
@@ -39,32 +41,33 @@
 ### Backend Pipelines
 
 1. **Commit and Push:**
-   - Commit and push the latest code to the Azure repository.
+   - Developers write code locally and commit their changes to the local Git repository.
+   - These changes are then pushed to the remote Azure repository, initiating the CI process.
 
 2. **Create Pull Request:**
-   - Create a pull request to the `main` branch.
-   - CI trigger runs automatically.
+   - A pull request (PR) is created to merge the new changes into the `main` branch.
+   - This PR must be reviewed and approved by other team members.
+   - Once the PR is created, the CI pipeline is triggered to validate the changes.
 
 3. **CI Stage - Build:**
-   - Install Node.js.
-   - Install project dependencies.
-   - Run linting.
-   - Run Gitleaks for secrets detection.
-   - Run tests.
-   - Publish test results.
-   - Run security audit.
-   - Build the project.
+   - **Install Node.js:** The pipeline installs the required version of Node.js.
+   - **Install Dependencies:** It runs `npm install` or `yarn install` to install all necessary project dependencies.
+   - **Run Linting:** The pipeline runs a linting tool (e.g., ESLint) to check the code for stylistic and programming errors.
+   - **Run Gitleaks:** Gitleaks is executed to detect any hardcoded secrets and sensitive information in the codebase.
+   - **Run Tests:** Automated tests are run to ensure that new changes do not break existing functionality.
+   - **Publish Test Results:** Test results are published to Azure DevOps for review.
+   - **Run Security Audit:** The pipeline runs a security audit (e.g., `npm audit`) to check for vulnerabilities in dependencies.
+   - **Build the Project:** The project is built, typically using a command like `npm run build` or `yarn build`.
 
 4. **Merge to Main:**
-   - Merge the pull request to the `main` branch.
-   - CD trigger runs automatically.
+   - After the PR is approved and merged into the `main` branch, the CD pipeline is triggered.
 
 5. **CD Stage - Build and Push Image:**
-   - Build Docker image.
-   - Push the image to Azure Container Registry.
+   - **Build Docker Image:** The pipeline builds a Docker image of the application.
+   - **Push to Azure Container Registry:** The Docker image is pushed to Azure Container Registry for storage and deployment.
 
 6. **Azure Web App Deployment:**
-   - Azure Web App triggers image pull from Azure Container Registry.
-   - Automatically deploys to the `main` branch.
+   - Azure Web App triggers an image pull from Azure Container Registry.
+   - The updated Docker image is automatically deployed to the live environment.
 
 ![CI/CD Pipeline for Backend](/.attachments/CICD_BE-5a500f1a-7054-46fa-a1e2-ead3f995f540.png)

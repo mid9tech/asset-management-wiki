@@ -50,7 +50,7 @@ This sequence diagram illustrates the user login process within the system. It c
 - The system enforces a password change for first-time logins to ensure security.
 - Error messages guide the user in case of invalid credentials or other login issues.
 
-# II. Sequence Diagram: Assignment Management Flow
+# II. Sequence Diagram: Assignment Create Flow
 
 ## Overview
 This sequence diagram illustrates the process of managing assignments within the system. It covers the scenarios where a staff member accepts or declines an assignment. The interactions between the Staff, System, Home Page, Confirmation Popup, and Database components are depicted to showcase the complete workflow.

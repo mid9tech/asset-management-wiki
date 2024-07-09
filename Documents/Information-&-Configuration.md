@@ -5,3 +5,4 @@
 - POSTGRES_PASSWORD="rookie@123456789"
 - POSTGRES_DB="asset-management"
 - DATABASE_URL="postgresql://assetManagement:rookie@123456789@db-asset-management.postgres.database.azure.com:5432/asset-management?sslmode=require"
+

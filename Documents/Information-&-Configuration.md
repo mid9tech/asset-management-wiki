@@ -1,6 +1,6 @@
-**1. Client Side:** https://asset-management-web.vercel.app
+**1. Client-Side:** https://asset-management-web.vercel.app
 
-**2. Server Side:** https://asset-management-apis.azurewebsites.net
+**2. Server-Side:** https://asset-management-apis.azurewebsites.net
 
 **3. PostgreSQL:** 
 - POSTGRES_USER=assetManagement

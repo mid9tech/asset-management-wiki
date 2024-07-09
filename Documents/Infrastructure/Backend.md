@@ -1,7 +1,42 @@
 
 **Project structure**
+```
+src/
+├── domains/
+│   ├── assets/
+│   ├── assignments/
+│   ├── request-returns/
+│   ├── users/
+├── services/
+│   └── prisma/
+├── shared/
+│   ├── constants/
+│   ├── enums/
+│   ├── exceptions/
+│   ├── generics/
+│   ├── helpers/
+├── app.module.ts
+├── main.ts
+└── schema.graphql
 
-![image.png](/.attachments/image-0ba231b6-ab53-425d-9d4f-a1eb82ac363b.png)
+src/
+├── app/
+│   ├── asset/
+│   ├── assignment/
+│   ├── home/
+│   ├── report/
+│   ├── request-returning/
+│   ├── user/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+├── hooks/
+├── libs/
+├── providers/
+├── services/
+├── styles/
+└── utils/
+```
 # Domains
 
 ### assets

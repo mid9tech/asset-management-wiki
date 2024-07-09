@@ -1,5 +1,5 @@
-**1.	Commit Conventions**
-Format: <type>(<scope>): <subject>
+##	Commit Conventions
+### Format: <type>(<scope>): <subject>
 -	Type:
 •	feat: A new feature.
 •	docs: Documentation only changes.
@@ -13,5 +13,30 @@ Format: <type>(<scope>): <subject>
 -	Subject: Brief description of the commit.
 Example: feat(user-profile): add avatar upload functionality
 
-**2. Branch** 
-- The branch in GitHub will be named according to the user story.
+## Branch Naming Convention
+
+### Feature Branches:
+- Use the prefix `feature/` followed by a brief, descriptive name of the feature or user story (e.g., `feature/user-authentication`).
+
+### Bugfix Branches:
+- Use the prefix `bugfix/` followed by a brief, descriptive name of the bug or issue being fixed (e.g., `bugfix/login-error-handling`).
+
+### Hotfix Branches:
+- Use the prefix `hotfix/` followed by a brief, descriptive name of the urgent issue or hotfix (e.g., `hotfix/security-patch`).
+
+### Release Branches:
+- Use the prefix `release/` followed by the version number or release name (e.g., `release/v1.0.0`, `release/summer-update`).
+
+### Example:
+- **Feature Branch:**
+  - `feature/user-authentication`
+  
+- **Bugfix Branch:**
+  - `bugfix/login-error-handling`
+  
+- **Hotfix Branch:**
+  - `hotfix/security-patch`
+  
+- **Release Branch:**
+  - `release/v1.0.0`
+

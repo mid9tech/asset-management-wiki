@@ -18,24 +18,6 @@ src/
 ├── app.module.ts
 ├── main.ts
 └── schema.graphql
-
-src/
-├── app/
-│   ├── asset/
-│   ├── assignment/
-│   ├── home/
-│   ├── report/
-│   ├── request-returning/
-│   ├── user/
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-├── hooks/
-├── libs/
-├── providers/
-├── services/
-├── styles/
-└── utils/
 ```
 # Domains
 

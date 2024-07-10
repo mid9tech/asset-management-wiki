@@ -7,11 +7,11 @@
 ## 1.2 Brief Description
 The asset management application is designed to help organizations manage their assets efficiently. It comprises a front-end built with Next.js, a back-end powered by NestJS, and utilizes various services such as Docker, Azure Container Registry, and Prisma for database management. The entire system is deployed and maintained using Azure services to ensure scalability, security, and reliability.
 
-# 2 Actors and Scope
+# 2. Actors and Scope
 
-## ![image.png](/.attachments/image-e1a4b704-651d-4aa0-8686-16afb64ca1aa.png)
+![image.png](/.attachments/image-67e8b9ef-28cd-47ec-acc7-deaa1a0f78b9.png)
 
-# 3 Preconditions
+# 3. Preconditions
 The actor must be signed in to the system.
 
 # 4. Flow of Events

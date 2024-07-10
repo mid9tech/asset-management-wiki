@@ -22,34 +22,29 @@ The actor must be signed in to the system.
 
 
 ### Alternative Flow – Change password
-![image.png](/.attachments/image-8b269e81-27bb-46a8-bf06-cc9a520c070e.png)
+![image.png](/.attachments/image-ef97272a-6aac-4322-89dc-dd4ce4a95d68.png)
 
 
 ### Alternative Flow – Create new user
 ![image.png](/.attachments/image-73ca68fc-63eb-4a2a-bb8f-8c17ad59cc91.png)
 
 ### Alternative Flow – Edit user
-![image.png](/.attachments/image-d9a47492-490b-46a3-936a-4c246e53e58f.png)
-
+![image.png](/.attachments/image-c62c2510-d23d-4311-af04-91cbfaa6e2e9.png)
 ### Alternative Flow – Delete User
-![image.png](/.attachments/image-2a803716-c8ad-41db-af77-12c21d498d6d.png)
-
+![image.png](/.attachments/image-7c3a9d24-62cf-4eff-9031-299f62a0ebe7.png)
 ### Alternative Flow – View user list
-![image.png](/.attachments/image-a460fbf4-4466-4ede-92ac-1c014fd45d94.png)
-
+![image.png](/.attachments/image-0e1fcec5-8cc9-48ae-8d7f-d2171dfd8c15.png)
 ## 4.2 Manage Asset
 
 ### Alternative Flow – Create new Asset
 ![image.png](/.attachments/image-e79b6273-125a-4cf3-a2c8-9870cda91dc4.png)
 
 ### Alternative Flow - Edit Asset
-![image.png](/.attachments/image-a8b7d0c2-86e6-44a7-af29-3266adedb973.png)
-
+![image.png](/.attachments/image-157acc35-2337-4744-90ab-971c0e1d6b51.png)
 ### Alternative Flow – Delete Asset
-![image.png](/.attachments/image-21fab5f0-3032-48a3-b6af-bb83099e8bc6.png)
-
+![image.png](/.attachments/image-314945dd-ad98-446b-96dd-47dc33b58605.png)
 ### Alternative Flow – View Asset list
-![image.png](/.attachments/image-25baa2da-35c0-46d9-bd10-00a9c15a1da8.png)
+![image.png](/.attachments/image-62da03ea-fa2a-4dc7-8549-f206975cfc5d.png)
 
 ## 4.3 Manage Assignment
 
@@ -57,23 +52,22 @@ The actor must be signed in to the system.
 ![image.png](/.attachments/image-99f2ab8d-462d-44f6-9f37-c0a6a59588c8.png)
 
 ### Alternative Flow - Edit Assignment
-![image.png](/.attachments/image-f2ee332f-d5b0-48d6-95dc-8268addd8c51.png)
+![image.png](/.attachments/image-25d9e14f-45e3-4e48-b6a8-a9757a374080.png)
 
 ### Alternative Flow – Delete Assignment
-![image.png](/.attachments/image-926026a6-4a92-4aef-a765-ca233ef49145.png)
-
+![image.png](/.attachments/image-e607134e-a7f2-4523-ae6b-0c9329f34c29.png)
 
 ### Alternative Flow – View Assignment list
-![image.png](/.attachments/image-03fb41a2-3102-4038-b7e8-6167aab03875.png)
+![image.png](/.attachments/image-7ae0f478-8697-41f6-80e0-499347534a94.png)
 
 ## 4.4 Manage Request for Returning
-### Alternative Flow – View Request for Returning list
-![image.png](/.attachments/image-92de5d64-8ee4-4e57-bfc1-6c2057cfeda0.png)
+### Alternative Flow – Create Request for Returning list
+![image.png](/.attachments/image-c9e9fc3a-3e3c-433b-9137-9866aa27dd60.png)
 
 
 ### Alternative Flow – View Request for Returning list
-![image.png](/.attachments/image-b8739fb3-dd9e-43b2-851e-a7a3ebad4084.png)
+![image.png](/.attachments/image-11578e96-8f60-47da-909b-413fca7391a7.png)
 
 ## 4.5 Asset Report
 ### Alternative Flow – View/Export Asset report
-![image.png](/.attachments/image-29cc2b8c-6939-43d5-a8d6-0ddb33684161.png)
+![image.png](/.attachments/image-b46c36b3-349f-4a7c-8328-d3960f35fd62.png)

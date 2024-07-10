@@ -42,7 +42,7 @@ The actor must be signed in to the system.
 ### Alternative Flow - Edit Asset
 ![image.png](/.attachments/image-157acc35-2337-4744-90ab-971c0e1d6b51.png)
 ### Alternative Flow – Delete Asset
-![image.png](/.attachments/image-314945dd-ad98-446b-96dd-47dc33b58605.png)
+![image.png](/.attachments/image-a8e5c9e6-3f9f-4b82-a006-b15bd33adabb.png)
 ### Alternative Flow – View Asset list
 ![image.png](/.attachments/image-62da03ea-fa2a-4dc7-8549-f206975cfc5d.png)
 

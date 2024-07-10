@@ -9,153 +9,71 @@ The asset management application is designed to help organizations manage their 
 
 # 2 Actors and Scope
 
-| Actors | Description |
-|--------|-------------|
-| Admin  | Full control: Manage/Create/Edit/Disable user, Manage/Create/Edit/Delete asset, Manage/Create/Edit/Delete assignment, Manage/Create Request for Returning, View/Export asset report |
-| Staff  | Can Accept/Decline assignments, Can Request for Returning asset |
+## ![image.png](/.attachments/image-e1a4b704-651d-4aa0-8686-16afb64ca1aa.png)
 
 # 3 Preconditions
 The actor must be signed in to the system.
 
-# 4 Flow of Events
+# 4. Flow of Events
 
 ## 4.1 Manage User
+###Basic flow - Log in/Log out
+![image.png](/.attachments/image-0eb3c01e-21d0-4526-8f64-eb7408385207.png)
 
-### Basic Flow – Log in/Log out
-1. Users input valid username and password.
-2. If this is the first login:
-   - Change password popup displays.
-   - User inputs new password.
-   - System directs to log in window for user to re-log in with the new password.
-3. If this is not the first login:
-   - System directs to Homepage.
-4. User clicks on username at the top right of the page, selects Log out option to logout.
-5. The flow ends.
 
 ### Alternative Flow – Change password
-1. User clicks Change password button.
-2. Change password popup displays.
-3. User inputs Old password and New password.
-4. System directs to log in window for user to re-log in with the new password.
-5. The flow ends.
+![image.png](/.attachments/image-8b269e81-27bb-46a8-bf06-cc9a520c070e.png)
+
 
 ### Alternative Flow – Create new user
-1. User goes to Manage user page, clicks on Create new asset.
-2. User inputs fields: First name, Last name, DOB, Gender, Joined date, Type.
-3. Clicks on Save button.
-4. New user is created successfully.
-5. Created user appears at top of User list.
-6. The flow ends.
+![image.png](/.attachments/image-73ca68fc-63eb-4a2a-bb8f-8c17ad59cc91.png)
 
 ### Alternative Flow – Edit user
-1. At Manage user list, click on Edit button of any user.
-2. First name, Last Name fields are disabled.
-3. DOB, Gender, Joined date, Type are enabled to edit.
-4. User inputs valid data and clicks Save.
-5. Flow ends.
+![image.png](/.attachments/image-d9a47492-490b-46a3-936a-4c246e53e58f.png)
 
 ### Alternative Flow – Delete User
-1. At Manage user list, click on Disable button of any user.
-2. If user has available assignment, warning message is shown -> Disable user unsuccessfully.
-3. If user does not have any assignment, Confirmation popup -> Click Yes button -> Disable user successfully.
-4. Flow ends.
+![image.png](/.attachments/image-2a803716-c8ad-41db-af77-12c21d498d6d.png)
 
 ### Alternative Flow – View user list
-1. At Manage user page, Admin can view all users which are the same as Admin’s location.
-2. Users can either:
-   - Sort by Staffcode, Fullname, Joined date, Type
-   - OR
-   - Filter by User type: Admin, Staff
-3. Users can click on any User record.
-4. Detailed user information popup with all information.
-5. Flow ends.
+![image.png](/.attachments/image-a460fbf4-4466-4ede-92ac-1c014fd45d94.png)
 
 ## 4.2 Manage Asset
 
 ### Alternative Flow – Create new Asset
-1. At Manage Asset page, click on Create new asset button.
-2. Users input fields: Name, Category, Specification, Installed date, State.
-3. Users can either create a new category.
-4. Click Save.
-5. New asset is created successfully.
-6. Created asset appears at the top of Asset list.
-7. The flow ends.
+![image.png](/.attachments/image-e79b6273-125a-4cf3-a2c8-9870cda91dc4.png)
 
 ### Alternative Flow - Edit Asset
-1. At Manage asset list, click on Edit button of any asset.
-2. Category field is disabled.
-3. Asset name, Specification, Installed Date, State are enabled to edit.
-4. Users input valid data and click Save.
-5. Flow ends.
+![image.png](/.attachments/image-a8b7d0c2-86e6-44a7-af29-3266adedb973.png)
 
 ### Alternative Flow – Delete Asset
-1. At Manage asset list, click on Disable button of any asset.
-2. If asset is assigned to any user -> warning message is shown -> Disable asset unsuccessfully.
-3. If asset has historical assignment -> warning message is shown -> Disable asset unsuccessfully.
-4. OR ELSE
-5. Confirmation message displays -> Click yes -> Disable asset successfully.
-6. Flow ends.
+![image.png](/.attachments/image-21fab5f0-3032-48a3-b6af-bb83099e8bc6.png)
 
 ### Alternative Flow – View Asset list
-1. At Manage asset page, Admin can view all assets in the system.
-2. Users can either:
-   - Sort by Asset code, Asset name, Category, State
-   - OR
-   - Filter by State, Category
-3. Users can click on any Asset record.
-4. Detailed asset information popup with all information.
-5. Flow ends.
+![image.png](/.attachments/image-25baa2da-35c0-46d9-bd10-00a9c15a1da8.png)
 
 ## 4.3 Manage Assignment
 
 ### Alternative Flow – Create new Assignment
-1. At Manage assignment page, click on Create new assignment button.
-2. Users input fields: User, Asset, Assigned date, Note.
-3. Users can either search for User in User field or search for Asset in Asset field.
-4. Click Save.
-5. New assignment is created successfully.
-6. Created assignment appears at the top of Assignment list.
-7. The flow ends.
+![image.png](/.attachments/image-99f2ab8d-462d-44f6-9f37-c0a6a59588c8.png)
 
 ### Alternative Flow - Edit Assignment
-1. At Manage Assignment list, click on Edit button of any assignment.
-2. User, Asset, Assigned date, Note are enabled to edit.
-3. Users input valid data and click Save.
-4. Flow ends.
+![image.png](/.attachments/image-f2ee332f-d5b0-48d6-95dc-8268addd8c51.png)
 
 ### Alternative Flow – Delete Assignment
-1. At Manage assignment list, click on Disable button of any assignment.
-2. If assignment has Assigned state -> Delete button is disabled.
-3. OR ELSE
-4. Confirmation message displays -> Click yes -> Delete assignment successfully.
-5. Flow ends.
+![image.png](/.attachments/image-926026a6-4a92-4aef-a765-ca233ef49145.png)
+
 
 ### Alternative Flow – View Assignment list
-1. At Manage assignment page, Admin can view all assignments in the system which are the same as Admin’s location.
-2. Users can either:
-   - Sort by No., Asset code, Asset name, Assigned to, Assigned By, State
-   - OR
-   - Filter by State, Assigned Date
-3. Users can click on any Assignment record.
-4. Detailed assignment information popup with all information.
-5. Flow ends.
+![image.png](/.attachments/image-03fb41a2-3102-4038-b7e8-6167aab03875.png)
 
 ## 4.4 Manage Request for Returning
+### Alternative Flow – View Request for Returning list
+![image.png](/.attachments/image-92de5d64-8ee4-4e57-bfc1-6c2057cfeda0.png)
 
-### Alternative Flow – Create Request for Returning
-1. At Home page, click on Return button of individual’s assignment which has Accepted state.
-2. If assignment has a different state, go to Step 3.
-3. Confirmation popup.
-4. Click Yes button.
-5. Return request is created successfully.
-6. The flow ends.
 
 ### Alternative Flow – View Request for Returning list
-1. At Request for Returning page, Admin can view all requests which are the same as Admin’s location.
-2. Users can either:
-   - Sort by No., Asset code, Asset name, Assigned to, Assigned By, State
-   - OR
-   - Filter by State, Assigned Date
-3. Users can click on any Request record.
-4. Detailed assignment information popup with all information.
-5. Flow ends.
+![image.png](/.attachments/image-b8739fb3-dd9e-43b2-851e-a7a3ebad4084.png)
+
+## 4.5 Asset Report
+### Alternative Flow – View/Export Asset report
+![image.png](/.attachments/image-29cc2b8c-6939-43d5-a8d6-0ddb33684161.png)

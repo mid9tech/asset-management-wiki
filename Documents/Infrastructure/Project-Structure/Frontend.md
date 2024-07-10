@@ -1,4 +1,4 @@
-**Project structure**
+# Project Structure
 
 ```
 src/
@@ -19,7 +19,7 @@ src/
 └── utils/
 ```
 
-# Project Structure
+
 
 ## src/
 The `src` directory contains all the source code for our application.

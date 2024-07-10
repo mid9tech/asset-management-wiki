@@ -12,7 +12,6 @@ src/
 │   ├── layout.tsx
 │   └── page.tsx
 ├── components/
-├── hooks/
 ├── libs/
 ├── providers/
 ├── services/
@@ -37,9 +36,6 @@ The `src` directory contains all the source code for our application.
 
 ### components/
 This directory contains reusable UI components used throughout the application. Components here should be designed to be modular and easily integrated into different parts of the application.
-
-### hooks/
-Contains custom React hooks that encapsulate logic and stateful behavior to be reused across various components.
 
 ### libs/
 This directory includes shared libraries and utility functions that are used across multiple parts of the application. These could include helper functions, constants, and other shared logic.

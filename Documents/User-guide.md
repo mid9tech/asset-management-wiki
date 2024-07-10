@@ -2,7 +2,7 @@
 
 ## 1.1 Goal
 - Allows Admin to manage company’s assets
-- Allows users to request to return an assignment
+- Allows users to request for returning an assignment
 
 ## 1.2 Brief Description
 The asset management application is designed to help organizations manage their assets efficiently. It comprises a front-end built with Next.js, a back-end powered by NestJS, and utilizes various services such as Docker, Azure Container Registry, and Prisma for database management. The entire system is deployed and maintained using Azure services to ensure scalability, security, and reliability.

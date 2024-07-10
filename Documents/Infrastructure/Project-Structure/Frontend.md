@@ -1,4 +1,4 @@
-# Project Structure
+# Front-end Project Structure
 
 ```
 src/

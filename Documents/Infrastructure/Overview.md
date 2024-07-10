@@ -5,7 +5,7 @@ The asset management application is designed to help organizations manage their 
 
 ## Diagram
 
-![Logical Architecture.png](/.attachments/Logical%20Architecture-e795d9a9-71a9-4466-9660-161f8f563add.png)
+![Logical Architecture.drawio.png](/.attachments/Logical%20Architecture.drawio-c8825757-f479-43c1-9ff9-4ef7ff22161b.png)
 
 ## Detail Information
 

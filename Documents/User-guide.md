@@ -1,4 +1,4 @@
-# 1 Overview
+# 1. Overview
 
 ## 1.1 Goal
 - Allows Admin to manage company’s assets

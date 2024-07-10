@@ -1,5 +1,5 @@
 
-**Project structure**
+## Back-end Project Structure
 ```
 src/
 ├── domains/
@@ -19,7 +19,7 @@ src/
 ├── main.ts
 └── schema.graphql
 ```
-# Domains
+## Domains
 
 ### assets
 Manages and handles all functionalities related to assets, such as asset creation, modification, and tracking.

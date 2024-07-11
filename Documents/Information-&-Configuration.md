@@ -1,10 +1,10 @@
-**1. Client-Side:** https://asset-management-web.vercel.app
+**1. Client-Side:** https://asset-management-fe.vercel.app/login
 
-**2. Server-Side:** https://asset-management-apis.azurewebsites.net
+**2. Server-Side:** 
 
 **3. PostgreSQL:** 
-- POSTGRES_USER=assetManagement
-- POSTGRES_PASSWORD=rookie@123456789
-- POSTGRES_DB=asset-management
-- DATABASE_URL=postgresql://assetManagement:rookie@123456789@db-asset-management.postgres.database.azure.com:5432/asset-management?sslmode=require
+- POSTGRES_USER=
+- POSTGRES_PASSWORD=
+- POSTGRES_DB=
+- DATABASE_URL=
 
